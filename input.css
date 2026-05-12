@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --font-nuckle: "Nuckle", sans-serif;
+}
+
+@font-face {
+  font-family: 'Nuckle';
+  font-style: medium;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/Nuckle-ExtraLight.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: Nuckle;
+  font-style: medium;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./fonts/Nuckle-Medium.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: Nuckle;
+  font-style: medium;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./fonts/Nuckle-Regular.woff") format("woff");
+}
